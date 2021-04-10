@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "title": "more mining",
+      "description": "さぁ、採掘の始まりだ！",
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+      "frame": "task"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:cobblestone"
+            }
+          ]
+        }
+      }
+    }
+  }

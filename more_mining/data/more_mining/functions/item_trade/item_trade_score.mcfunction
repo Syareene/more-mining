@@ -1,0 +1,1 @@
+execute as @a[scores={trade_trigger=1..}] run function more_mining:item_trade/item_trade

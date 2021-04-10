@@ -1,0 +1,3 @@
+summon item ~ ~2 ~ {Item:{id:"minecraft:netherite_pickaxe",Count:1b,tag:{display:{Name:'[{"text":"op","color":"dark_purple","obfuscated":true},{"text":"強化されたネザライトのツルハシ","bold":true,"italic":false,"obfuscated":false},{"text":"op","obfuscated":true}]',Lore:['{"text":"最大限まで効果を発揮した真の姿。","color":"gold","bold":true,"italic":false}']},Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:10s},{id:"minecraft:silk_touch",lvl:1s}],CustomModelData:1}}}
+execute as @a run playsound block.anvil.use master @s ~ ~ ~ 
+data merge block ~ ~-1 ~ {Items:[{Slot:4b,id:"minecraft:air",Count:1b}]}

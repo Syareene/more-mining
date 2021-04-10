@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "石の銀行",
+      "description": "石バンクを改良作業台で作成する。",
+      "frame": "task"
+    },
+    "parent": "more_mining:better_crafting",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:written_book",
+              "nbt": "{CustomModelData:3}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "function": "more_mining:mining_sack/sack_trigger_enable"
+    }
+  }
