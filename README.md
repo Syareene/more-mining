@@ -15,6 +15,10 @@
 ## クリエイティブ・コモンズ
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/Syareene/more-mining" property="cc:attributionName" rel="cc:attributionURL">syareene</a> 作『<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">more mining</span>』は<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>で提供されています。
 
+上でも書きましたが基本的に私の名前さえ載せていただければ商業利用も二次創作も可能です。
+最低限のマナーを守った上でお願いします。
+
+
 ## データパックを作成するにあたって使ったサイト等
 mcstacker
 VScode(datapackhelperplus)
