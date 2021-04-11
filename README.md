@@ -12,6 +12,9 @@
 このデータパックはアプデによって個人的にあまり楽しみがなくなってきている採掘という行為をもっと活性化させようと思い作成いたしました。1.17では高度が増えてまた楽しみでもあり現状即時破壊できない石が追加されるということでストレスが増えそうです()
 このデータパックはそういう部分のフラストレーションを解消できたらなーと思って開発しております。少しヌルゲーになる部分もあったり、一部の人は許せない部分もあるかもしれませんが目を瞑ってくれると嬉しいです。
 
+## クリエイティブ・コモンズ
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/Syareene/more-mining" property="cc:attributionName" rel="cc:attributionURL">syareene</a> 作『<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">more mining</span>』は<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>で提供されています。
+
 ## データパックを作成するにあたって使ったサイト等
 mcstacker
 VScode(datapackhelperplus)
