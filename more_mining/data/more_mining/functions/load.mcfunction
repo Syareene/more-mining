@@ -3,7 +3,7 @@
 function more_mining:mining_pt/scoreboard
 scoreboard objectives add trade_trigger trigger
 scoreboard objectives add sack_trigger trigger
-scoreboard objectives add mining_pt dummy ["採掘ポイント"]
+scoreboard objectives add mining_pt dummy "採掘ポイント"
 scoreboard objectives add timer dummy
 scoreboard objectives add stone_sack dummy
 scoreboard objectives add stone_amout dummy
