@@ -1,3 +1,4 @@
+scoreboard players operation @s diamond_ore *= @s 100
 scoreboard players operation @s mining_pt += @s diamond_ore
 scoreboard players reset @s diamond_ore
 

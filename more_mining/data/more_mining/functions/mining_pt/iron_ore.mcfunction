@@ -1,3 +1,4 @@
+scoreboard players operation @s iron_ore *= @s 5
 scoreboard players operation @s mining_pt += @s iron_ore
 scoreboard players reset @s iron_ore
 

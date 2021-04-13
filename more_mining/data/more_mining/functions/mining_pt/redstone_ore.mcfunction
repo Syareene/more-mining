@@ -1,3 +1,4 @@
+scoreboard players operation @s redstone_ore *= @s 5
 scoreboard players operation @s mining_pt += @s redstone_ore
 scoreboard players reset @s redstone_ore
 

@@ -1,3 +1,4 @@
+scoreboard players operation @s nether_gold_ore *= @s 10
 scoreboard players operation @s mining_pt += @s nether_gold_ore
 scoreboard players reset @s nether_gold_ore
 
