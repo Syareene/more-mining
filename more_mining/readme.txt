@@ -32,3 +32,4 @@ minecraft tools
 twitter:https://twitter.com/truepaaking  
 公式discord:https://discord.gg/fMwQ3wv2K3  
 解説サイト:https://note.com/syareene/n/nc5442335e944  
+github:https://github.com/Syareene/more-mining/tree/master
