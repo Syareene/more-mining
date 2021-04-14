@@ -1,4 +1,4 @@
-scoreboard players operation @s quartz_ore *= @s 5
+scoreboard players operation @s quartz_ore *= quartz quartz_pt
 scoreboard players operation @s mining_pt += @s quartz_ore
 scoreboard players reset @s quartz_ore
 

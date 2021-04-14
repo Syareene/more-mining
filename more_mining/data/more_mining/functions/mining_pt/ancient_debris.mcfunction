@@ -1,4 +1,4 @@
-scoreboard players operation @s ancient_debris *= @a ancient_debris
+scoreboard players operation @s ancient_debris *= debris debris_pt
 scoreboard players operation @s mining_pt += @s ancient_debris
 scoreboard players reset @s ancient_debris
 

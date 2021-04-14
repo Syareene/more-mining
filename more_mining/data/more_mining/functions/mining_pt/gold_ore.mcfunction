@@ -1,4 +1,4 @@
-scoreboard players operation @s gold_ore *= @s 15
+scoreboard players operation @s gold_ore *= gold gold_pt
 scoreboard players operation @s mining_pt += @s gold_ore
 scoreboard players reset @s gold_ore
 

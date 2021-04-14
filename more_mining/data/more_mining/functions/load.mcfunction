@@ -1,6 +1,7 @@
 #scoreboard作成
 #gamerule commandBlockOutput false
 function more_mining:mining_pt/scoreboard
+function more_mining:mining_pt/scoreboard_ore
 scoreboard objectives add trade_trigger trigger
 scoreboard objectives add sack_trigger trigger
 scoreboard objectives add mining_pt dummy "採掘ポイント"
