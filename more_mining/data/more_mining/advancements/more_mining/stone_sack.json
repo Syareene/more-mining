@@ -1,13 +1,13 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:written_book"
+        "item": "minecraft:stone"
       },
-      "title": "俺のダイヤがあああ",
-      "description": "more miningの説明書を入手する。",
+      "title": "石の銀行",
+      "description": "石バンクを改良作業台で作成する。",
       "frame": "task"
     },
-    "parent": "more_mining:first",
+    "parent": "more_mining:more_mining/better_crafting",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:inventory_changed",
@@ -15,13 +15,13 @@
           "items": [
             {
               "item": "minecraft:written_book",
-              "nbt": "{CustomModelData:1}"
+              "nbt": "{CustomModelData:3}"
             }
           ]
         }
       }
     },
     "rewards": {
-      "function": "more_mining:item_trade/item_trade_trigger"
+        "function": "more_mining:mining_sack/sack_trigger_enable"
     }
   }
