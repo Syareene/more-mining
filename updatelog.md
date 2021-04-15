@@ -32,3 +32,5 @@ more_mining直下にあるtodo.txtとreadme.txtの削除。
 todoはgithubのprojectsから見れます。  　
 readme.txtはreadme.mdで置き換えます。  
 updatalogはそのまま残しておきます(見やすいしね)  
+採掘ポイントの鉱石のやつがスタックされてありえないくらいスコアが加算される問題の修正  
+改良作業台で本来いらない部分にアイテムを入れていてもクラフトできる問題を修正
