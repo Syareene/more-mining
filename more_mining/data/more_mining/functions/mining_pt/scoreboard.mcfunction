@@ -35,3 +35,5 @@ scoreboard objectives add gray_terracotta minecraft.mined:minecraft.gray_terraco
 scoreboard objectives add light_gray_terra minecraft.mined:minecraft.light_gray_terracotta
 scoreboard objectives add red_terracotta minecraft.mined:minecraft.red_terracotta
 scoreboard objectives add white_terracotta minecraft.mined:minecraft.white_terracotta
+scoreboard objectives add infested_stone minecraft.mined:infested_stone
+scoreboard objectives add infested_cobble minecraft.mined:infested_cobblestone
