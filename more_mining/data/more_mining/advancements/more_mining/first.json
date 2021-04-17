@@ -19,5 +19,8 @@
           ]
         }
       }
+    },
+    "rewards": {
+      "function": "more_mining:mining_pt/scoreboard_set"
     }
   }
