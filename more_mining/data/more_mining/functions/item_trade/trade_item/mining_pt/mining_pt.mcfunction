@@ -1,2 +1,2 @@
-tellraw @s ["",{"text":"\u73fe\u5728\u306e\u30dd\u30a4\u30f3\u30c8\u306f","bold":true,"color":"gold"},{"score":{"name":"@s","objective":"mining_pt"},"bold":true,"color":"gold"},{"text":"\u3067\u3059\u3002","bold":true,"color":"gold"}]
-function more_mining:item_trade/item_trade_trigger
+execute as @s[scores={trade_trigger=89}] run function more_mining:item_trade/trade_item/mining_pt/mining_pt_check
+execute as @s[scores={trade_trigger=99}] run function more_mining:item_trade/trade_item/mining_pt/mining_pt_scoreboard
