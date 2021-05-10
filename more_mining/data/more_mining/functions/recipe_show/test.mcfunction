@@ -7,3 +7,5 @@ execute as @a at @s run summon armor_stand ~1 ~1 ~-1 {Small:1b,Marker:1b,Invisib
 execute as @a at @s run summon armor_stand ~ ~1.5 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:netherite_ingot",Count:1b,tag:{CustomModelData:1,Enchantments:[{}]}}]}
 execute as @a at @s run summon armor_stand ~0.5 ~1.5 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:netherite_ingot",Count:1b,tag:{CustomModelData:1,Enchantments:[{}]}}]}
 execute as @a at @s run summon armor_stand ~1 ~1.5 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:netherite_ingot",Count:1b,tag:{CustomModelData:1,Enchantments:[{}]}}]}
+
+#6-7-8,3-4-5,0-1-2のスロットの順番
