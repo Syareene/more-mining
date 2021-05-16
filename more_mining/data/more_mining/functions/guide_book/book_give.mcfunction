@@ -7,3 +7,4 @@ execute as @e[type=item,tag=book,nbt={Item:{id:"minecraft:diamond"}}] at @s if b
 #タグが付与されたら次は本=ガイドブックの召喚だ。これはsummonコマンドでやっている。giveでもいいんだけど演出的にこっちの方がええだろ？
 #最後の場所はdiamondをなくす。投げてガイドが出てくるのにダイヤが帰ってきたら変だろ？
 
+#交換用の紙のテクスチャを作っていない＋名前
