@@ -1,16 +1,16 @@
 {
-  "criteria":{
-    "mossy_cobblestone_mine":{
-      "trigger":"minecraft:tick",
-      "conditions":{
-        "player":[
+  "criteria": {
+    "mossy_cobblestone_mine": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
           {
-            "condition":"entity_scores",
-            "entity":"this",
-            "scores":{
-              "mossy_cobble":{
-                "min":1,
-                "max":2147483647
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "mossy_cobble": {
+                "min": 1,
+                "max": 2147483647
               }
             }
           }
@@ -18,7 +18,7 @@
       }
     }
   },
-  "rewards":{
-    "function":"more_mining:mining_pt/mossy_cobblestone"
+  "rewards": {
+    "function": "more_mining:mining_pt/mossy_cobblestone"
   }
 }

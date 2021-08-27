@@ -1,16 +1,16 @@
 {
-  "criteria":{
-    "infested_stone_mine":{
-      "trigger":"minecraft:tick",
-      "conditions":{
-        "player":[
+  "criteria": {
+    "infested_stone_mine": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
           {
-            "condition":"entity_scores",
-            "entity":"this",
-            "scores":{
-              "infested_stone":{
-                "min":1,
-                "max":2147483647
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "infested_stone": {
+                "min": 1,
+                "max": 2147483647
               }
             }
           }
@@ -18,7 +18,7 @@
       }
     }
   },
-  "rewards":{
-    "function":"more_mining:mining_pt/infested_stone"
+  "rewards": {
+    "function": "more_mining:mining_pt/infested_stone"
   }
 }

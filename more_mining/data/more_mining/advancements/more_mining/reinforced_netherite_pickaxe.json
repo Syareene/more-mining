@@ -12,13 +12,15 @@
         "requirement": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-        "items": [
-            {
-                "item": "minecraft:netherite_pickaxe",
-                "nbt": "{CustomModelData:1}"
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:netherite_pickaxe"
+                        ]
+                    }
+                ]
             }
-          ]
         }
-      }
     }
 }

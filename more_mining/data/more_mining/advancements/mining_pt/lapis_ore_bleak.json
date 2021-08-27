@@ -1,16 +1,16 @@
 {
-  "criteria":{
-    "lapis_ore_mine":{
-      "trigger":"minecraft:tick",
-      "conditions":{
-        "player":[
+  "criteria": {
+    "lapis_ore_mine": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
           {
-            "condition":"entity_scores",
-            "entity":"this",
-            "scores":{
-              "lapis_ore":{
-                "min":1,
-                "max":2147483647
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "lapis_ore": {
+                "min": 1,
+                "max": 2147483647
               }
             }
           }
@@ -18,7 +18,7 @@
       }
     }
   },
-  "rewards":{
-    "function":"more_mining:mining_pt/lapis_ore"
+  "rewards": {
+    "function": "more_mining:mining_pt/lapis_ore"
   }
 }

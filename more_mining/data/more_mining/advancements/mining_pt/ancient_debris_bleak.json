@@ -1,16 +1,16 @@
 {
-  "criteria":{
-    "ancient_debris_mine":{
-      "trigger":"minecraft:tick",
-      "conditions":{
-        "player":[
+  "criteria": {
+    "ancient_debris_mine": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
           {
-            "condition":"entity_scores",
-            "entity":"this",
-            "scores":{
-              "ancient_debris":{
-                "min":1,
-                "max":2147483647
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "ancient_debris": {
+                "min": 1,
+                "max": 2147483647
               }
             }
           }
@@ -18,7 +18,7 @@
       }
     }
   },
-  "rewards":{
-    "function":"more_mining:mining_pt/ancient_debris"
+  "rewards": {
+    "function": "more_mining:mining_pt/ancient_debris"
   }
 }

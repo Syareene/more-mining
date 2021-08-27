@@ -1,26 +1,28 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:diamond_pickaxe"
-      },
-      "title": "more mining",
-      "description": "さぁ、採掘の始まりだ！",
-      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
-      "frame": "task"
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "item": "minecraft:cobblestone"
-            }
-          ]
-        }
+    "title": "more mining",
+    "description": "さぁ、採掘の始まりだ！",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "more_mining:mining_pt/scoreboard_set"
     }
+  },
+  "rewards": {
+    "function": "more_mining:mining_pt/scoreboard_set"
   }
+}

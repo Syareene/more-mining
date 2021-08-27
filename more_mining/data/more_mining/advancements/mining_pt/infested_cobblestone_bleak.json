@@ -1,16 +1,16 @@
 {
-  "criteria":{
-    "infested_cobblestone_mine":{
-      "trigger":"minecraft:tick",
-      "conditions":{
-        "player":[
+  "criteria": {
+    "infested_cobblestone_mine": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
           {
-            "condition":"entity_scores",
-            "entity":"this",
-            "scores":{
-              "infested_cobble":{
-                "min":1,
-                "max":2147483647
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "infested_cobble": {
+                "min": 1,
+                "max": 2147483647
               }
             }
           }
@@ -18,7 +18,7 @@
       }
     }
   },
-  "rewards":{
-    "function":"more_mining:mining_pt/infested_cobblestone"
+  "rewards": {
+    "function": "more_mining:mining_pt/infested_cobblestone"
   }
 }
