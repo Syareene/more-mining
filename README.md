@@ -24,6 +24,8 @@ mcstacker
 VScode(datapackhelperplus)  
 advancement generator(https://misode.github.io/advancement/)  
 minecraft tools  
+https://github.com/AmberWat/NegativeSpaceFont(customfontの際、1pixel単位での空白の調節が可能なやつ。customfontを使ったGUI等で使用してます。  
+customfontに関しては情報が少なく、自分でも試行錯誤していたり、様々な人のものを解剖してやっているので解説できるほどではありません)  
 その他コマンド有識者様やサイト等  
 
 # 各種リンク

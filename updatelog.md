@@ -50,3 +50,4 @@ custommodeldataを使ったテクスチャの追加。datapackとは別にリソ
 https://misode.github.io/upgrader/ 
 カスタムクラフターの仕様変更(ｶﾞﾝﾊﾞｯﾀ..)
 まず、ドロッパー?ディスペンサー?だったものを樽に変更。モードチェンジ等を使うことでレシピ表示にも対応。custommodeldataとcustomfontsの大集合。
+結構新しいGUIっぽく見えるのではないでしょうか。荒業使ってるから変更したいけどいかんせんcustomfontのGUIの情報が少なすぎる。ﾄﾞｳﾆｶｼﾃｸﾚ()

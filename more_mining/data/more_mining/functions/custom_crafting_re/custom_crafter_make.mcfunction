@@ -1,0 +1,1 @@
+execute at @s run tag @s add custom_crafter

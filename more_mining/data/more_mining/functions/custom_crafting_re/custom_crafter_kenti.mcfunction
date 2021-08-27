@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item_frame,nbt={Item:{id:"minecraft:diamond_pickaxe"}}] at @s if block ~ ~-1 ~ barrel{Items:[]} run function more_mining:custom_crafting_re
+#多分これでアイテムが入ってるときだけ動くようになってるはず、、、
