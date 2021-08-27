@@ -1,7 +1,0 @@
-execute as @a at @s run summon armor_stand ~0.5 ~0.5 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b}]}
-execute as @a at @s run summon armor_stand ~ ~1.3 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_block",Count:1b}]}
-execute as @a at @s run summon armor_stand ~0.5 ~1 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b}]}
-execute as @a at @s run summon armor_stand ~1 ~1.3 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_block",Count:1b}]}
-execute as @a at @s run summon armor_stand ~ ~1.5 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:netherite_ingot",Count:1b,tag:{CustomModelData:1,Enchantments:[{}]}}]}
-execute as @a at @s run summon armor_stand ~0.5 ~1.5 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:netherite_ingot",Count:1b,tag:{CustomModelData:1,Enchantments:[{}]}}]}
-execute as @a at @s run summon armor_stand ~1 ~1.5 ~-1 {Small:1b,Marker:1b,Invisible:1b,Tags:["recipe"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:netherite_ingot",Count:1b,tag:{CustomModelData:1,Enchantments:[{}]}}]}
