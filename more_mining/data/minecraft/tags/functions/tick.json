@@ -1,13 +1,13 @@
 {
 	"values": [
 		"more_mining:guide_book/book_give_search",
-		"more_mining:custom_crafting/custom_craftingtable_make",
-		"more_mining:custom_crafting/custom_crafting_kenti",
 		"more_mining:mining_sack/sack_trigger_check",
 		"more_mining:item_trade/trade_search",
 		"more_mining:gacha/gacha_find",
 		"more_mining:sneaktime",
+		"more_mining:custom_crafting_re/table_make/custom_crafter_kenti",
+		"more_mining:custom_crafting_re/table_broke/custom_crafter_broke_kenti",
 		"more_mining:custom_crafting_re/custom_crafter_kenti",
-		"more_mining:custom_crafting_re/custom_crafter_broke_kenti"
+		"more_mining:stone_hammer/hammer_give_search"
 	]
 }

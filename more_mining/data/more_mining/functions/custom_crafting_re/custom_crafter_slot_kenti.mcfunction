@@ -1,0 +1,2 @@
+execute at @s if block ~ ~ ~ barrel[open=true]{Items:[{Slot:17b,id:"minecraft:stone_pickaxe",Count:1b,tag:{display:{Name:'{"text":"石のハンマー","italic":false}'},CustomModelData:1,Tags:["stone_hammer"]}}]} run function more_mining:custom_crafting_re/custom_crafter_item_kenti
+execute at @s if block ~ ~ ~ barrel[open=false]{Items:[{Slot:17b,id:"minecraft:stone_pickaxe",Count:1b,tag:{display:{Name:'{"text":"石のハンマー","italic":false}'},CustomModelData:1,Tags:["stone_hammer"]}}]} run function more_mining:custom_crafting_re/hammer_back

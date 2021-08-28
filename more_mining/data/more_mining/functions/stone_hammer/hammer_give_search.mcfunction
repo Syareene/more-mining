@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=!hammer,nbt={Item:{id:"minecraft:stone_pickaxe"}}] at @s if block ~ ~-0.5 ~ minecraft:smithing_table run function more_mining:stone_hammer/hammer_give
