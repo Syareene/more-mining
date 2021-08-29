@@ -8,6 +8,7 @@
 		"more_mining:custom_crafting_re/table_make/custom_crafter_kenti",
 		"more_mining:custom_crafting_re/table_broke/custom_crafter_broke_kenti",
 		"more_mining:custom_crafting_re/custom_crafter_kenti",
-		"more_mining:stone_hammer/hammer_give_search"
+		"more_mining:stone_hammer/hammer_give_search",
+		"more_mining:custom_crafting_re/grid_take_kenti"
 	]
 }
