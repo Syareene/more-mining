@@ -13,6 +13,8 @@ scoreboard objectives add stone_sack dummy
 scoreboard objectives add stone_amout dummy
 scoreboard objectives add toggle_shift minecraft.custom:minecraft.sneak_time
 scoreboard objectives add crafter_made dummy
+scoreboard objectives add diff_item_kenti dummy
+scoreboard objectives add first_craft dummy
 scoreboard players add crafter crafter_made 0
 scoreboard objectives add switch_take dummy
 schedule function more_mining:message 1t

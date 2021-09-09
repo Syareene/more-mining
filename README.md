@@ -37,6 +37,6 @@ customfontに関しては情報が少なく、自分でも試行錯誤してい�
 # 各種リンク
 
 twitter:https://twitter.com/truepaaking  
+Youtube:https://www.youtube.com/channel/UCEkrurmdo7i-JOxKAMMcyTg  
 公式discord:https://discord.gg/fMwQ3wv2K3  
-解説サイト:https://note.com/syareene/n/nc5442335e944  
 github:https://github.com/Syareene/more-mining/tree/master  

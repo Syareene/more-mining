@@ -1,1 +1,1 @@
-execute as @e[type=armor_stand,tag=custom_crafter] run function more_mining:custom_crafting_re/custom_crafter_slot_kenti
+execute as @e[type=armor_stand,tag=custom_crafter] at @s run function more_mining:custom_crafting_re/custom_crafter_slot_kenti
