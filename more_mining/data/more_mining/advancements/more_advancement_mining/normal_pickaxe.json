@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": "標準装備",
+        "description": "ダイヤモンドのツルハシを作成する",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "more_mining:more_advancement_mining/not_so_pickaxe",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_pickaxe"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "more_mining:advancements_reward/normal_pickaxe"
+    }
+}
