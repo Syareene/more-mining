@@ -12,13 +12,13 @@
             "scoreboard players operation @s mining_pt += @s %namespace%",
             "scoreboard players reset @s %namespace%",
             "",
-            "advancement revoke @s only more_mining:mining_pt/%namespace%_bleak",
+            "advancement revoke @s only more_mining:mining_pt/%namespace%_break",
             ""
           ]
         },
         {
           "type": "file",
-          "rel": "data/more_mining/advancements/mining_pt/%namespace%_bleak.json",
+          "rel": "data/more_mining/advancements/mining_pt/%namespace%_break.json",
           "content": [
             "{",
             "  \"criteria\":{",
