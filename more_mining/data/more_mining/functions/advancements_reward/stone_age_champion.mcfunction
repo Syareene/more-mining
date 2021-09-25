@@ -1,2 +1,2 @@
-xp add @s 200 points
+xp add @s 100 points
 give @s cobblestone 64

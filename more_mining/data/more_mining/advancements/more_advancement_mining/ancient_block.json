@@ -4,7 +4,7 @@
             "item": "minecraft:terracotta"
         },
         "title": "古の建材",
-        "description": "16色のテラコッタを1stづつ集める",
+        "description": "16色のテラコッタを1stずつ集める",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true

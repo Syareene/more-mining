@@ -1,2 +1,2 @@
-xp add @s 300 points
-give @s coal_block 8
+xp add @s 150 points
+give @s coal_block 4

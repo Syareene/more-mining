@@ -1,2 +1,2 @@
-xp add @s 500 points
+xp add @s 150 points
 give @s netherite_ingot 8

@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:white_concrete"
+            "item": "minecraft:shulker_box"
         },
-        "title": "ゲーミングコンクリート",
-        "description": "16色のコンクリートを1stずつ集める",
+        "title": "シュルカー?シャルカー?",
+        "description": "16色のシュルカーボックスを1つずつ集める",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "more_mining:more_advancement_mining/ancient_block",
+    "parent": "more_mining:more_advancement_mining/gaming_concrete",
     "criteria": {
-        "black_concrete": {
+        "black_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -20,14 +20,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:black_concrete"
+                            "minecraft:black_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "blue_concrete": {
+        "blue_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -36,14 +36,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:blue_concrete"
+                            "minecraft:blue_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "brown_concrete": {
+        "brown_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -52,14 +52,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:brown_concrete"
+                            "minecraft:brown_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "cyan_concrete": {
+        "cyan_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -68,14 +68,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:cyan_concrete"
+                            "minecraft:cyan_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "gray_concrete": {
+        "gray_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -84,14 +84,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:gray_concrete"
+                            "minecraft:gray_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "green_concrete": {
+        "green_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -100,14 +100,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:green_concrete"
+                            "minecraft:green_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "light_blue_concrete": {
+        "light_blue_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -116,14 +116,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:light_blue_concrete"
+                            "minecraft:light_blue_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "light_gray_concrete": {
+        "light_gray_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -132,14 +132,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:black_concrete"
+                            "minecraft:black_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "lime_concrete": {
+        "lime_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -148,14 +148,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:lime_concrete"
+                            "minecraft:lime_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "magenta_concrete": {
+        "magenta_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -164,14 +164,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:magenta_concrete"
+                            "minecraft:magenta_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "orange_concrete": {
+        "orange_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -180,14 +180,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:orange_concrete"
+                            "minecraft:orange_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "pink_concrete": {
+        "pink_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -196,14 +196,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:pink_concrete"
+                            "minecraft:pink_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "purple_concrete": {
+        "purple_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -212,14 +212,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:purple_concrete"
+                            "minecraft:purple_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "red_concrete": {
+        "red_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -228,14 +228,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:red_concrete"
+                            "minecraft:red_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "white_concrete": {
+        "white_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -244,14 +244,14 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:white_concrete"
+                            "minecraft:white_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         },
-        "yellow_concrete": {
+        "yellow_shulker_box": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
@@ -260,15 +260,15 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:yellow_concrete"
+                            "minecraft:yellow_shulker_box"
                         ],
-                        "count": 64
+                        "count": 1
                     }
                 ]
             }
         }
     },
     "rewards": {
-        "function": "more_mining:advancements_reward/gaming_concrete"
+        "function": "more_mining:advancements_reward/shulker_or_shalker"
     }
 }

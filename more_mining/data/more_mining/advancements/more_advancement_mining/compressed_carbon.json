@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_block",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "圧縮炭素ブロック",
+        "description": "ダイヤモンドブロックを1st集める",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "more_mining:more_advancement_mining/light_blue_carbon",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_block"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "more_mining:advancements_reward/compressed_carbon"
+    }
+}
