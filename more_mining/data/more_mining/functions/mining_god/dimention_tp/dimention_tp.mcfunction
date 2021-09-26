@@ -1,0 +1,3 @@
+execute at @e[type=item,nbt={Item:{id:"minecraft:ender_eye",tag:{CustomModelData:1}}}] run execute as @a[limit=1] run execute in more_mining:mining_god run tp @s 0 10 0
+kill @e[type=item,nbt={Item:{id:"minecraft:ender_eye",tag:{CustomModelData:1}}}]
+execute in more_mining:mining_god run summon armor_stand 0 1 0 {Small:1b,NoGravity:1b,Silent:1b,Marker:1b,Invisible:1b,Tags:["mining_god"],DisabledSlots:4144959}

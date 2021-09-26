@@ -1,0 +1,1 @@
+execute at @e[tag=mining_god] run fill ~-30 ~-1 ~30 ~30 ~-1 ~-30 obsidian
