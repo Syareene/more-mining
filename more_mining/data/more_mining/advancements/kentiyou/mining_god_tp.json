@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "more_mining:mining_god"
+            }
+        }
+    },
+    "rewards": {
+        "function": "more_mining:mining_god/dimention_tp/player_tp_syori"
+    }
+}

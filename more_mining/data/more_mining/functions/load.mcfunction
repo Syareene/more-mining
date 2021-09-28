@@ -16,7 +16,7 @@ scoreboard objectives add diff_item_kenti dummy
 scoreboard objectives add first_craft dummy
 scoreboard players add crafter crafter_made 0
 scoreboard objectives add switch_take dummy
-scoreboard objectives add timer_wood minecraft.custom:minecraft.time_since_death
+scoreboard objectives add mining_god_tp dummy
 schedule function more_mining:message 1t
 #trade_triggerは本を使ったトレードガイドをクリックした時に変更するスコア。
 #これに応じてmining_ptが一定以上溜まっていったらトレード。溜まっていなかったらメッセージを表示。
