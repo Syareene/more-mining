@@ -10,6 +10,7 @@
 		"more_mining:custom_crafting_re/custom_crafter_kenti",
 		"more_mining:stone_hammer/hammer_give_search",
 		"more_mining:custom_crafting_re/grid_take_kenti",
-		"more_mining:mining_god/dimention_tp/god_summon_item_kenti"
+		"more_mining:mining_god/dimention_tp/god_summon_item_kenti",
+		"more_mining:mining_god/dimention_tp/dimention_kenti_reset"
 	]
 }
