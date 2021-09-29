@@ -1,1 +1,1 @@
-execute unless entity @a[tag=!boss_mining_god] run function more_mining:mining_god/dimention_tp/player_tped
+execute unless entity @s[tag=!boss_mining_god] run function more_mining:mining_god/dimention_tp/player_tped
