@@ -12,3 +12,9 @@ summon zombie ~ ~ ~ {CustomNameVisible:1b,Health:40f,IsBaby:0b,CanBreakDoors:0b,
 
 #鈍足AECをsummon
 summon area_effect_cloud ~ ~ ~ {Radius:2f,Duration:200,Effects:[{Id:2b,Amplifier:1b,Duration:100,ShowParticles:1b}]}
+
+execute at @a run summon evoker_fangs ~ ~ ~
+execute at @a run summon evoker_fangs ~1 ~ ~
+execute at @a run summon evoker_fangs ~-1 ~ ~
+execute at @a run summon evoker_fangs ~ ~ ~1
+execute at @a run summon evoker_fangs ~ ~ ~-1

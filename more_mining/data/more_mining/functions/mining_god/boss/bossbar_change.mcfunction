@@ -1,0 +1,1 @@
+execute store result bossbar mining_god value run data get entity @e[tag=mining_god,limit=1] Health 1
