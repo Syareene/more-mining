@@ -1,0 +1,274 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:terracotta"
+        },
+        "title": "古の建材",
+        "description": "16色のテラコッタを1stずつ集める",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "more_mining:more_advancement_mining/mining_making_world",
+    "criteria": {
+        "black_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:black_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "blue_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:blue_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "brown_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:brown_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "cyan_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cyan_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "gray_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gray_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "green_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:green_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "light_blue_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:light_blue_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "light_gray_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:black_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "lime_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:lime_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "magenta_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:magenta_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "orange_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:orange_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "pink_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:pink_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "purple_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:purple_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "red_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:red_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "white_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:white_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "yellow_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:yellow_terracotta"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "more_mining:advancements_reward/ancient_block"
+    }
+}

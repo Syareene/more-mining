@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "title": {
+            "text": "心がじゃりじゃりするんじゃぁ^～"
+        },
+        "description": "砂利を1st集める",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "more_mining:more_advancement_mining/mining_making_world",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gravel"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "more_mining:advancements_reward/heart_zyarizyari"
+    }
+}

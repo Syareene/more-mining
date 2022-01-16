@@ -1,0 +1,274 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shulker_box"
+        },
+        "title": "シュルカー?シャルカー?",
+        "description": "16色のシュルカーボックスを1つずつ集める",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "more_mining:more_advancement_mining/gaming_concrete",
+    "criteria": {
+        "black_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:black_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "blue_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:blue_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "brown_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:brown_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "cyan_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cyan_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "gray_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gray_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "green_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:green_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "light_blue_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:light_blue_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "light_gray_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:black_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "lime_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:lime_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "magenta_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:magenta_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "orange_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:orange_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "pink_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:pink_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "purple_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:purple_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "red_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:red_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "white_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:white_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "yellow_shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:yellow_shulker_box"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "more_mining:advancements_reward/shulker_or_shalker"
+    }
+}
