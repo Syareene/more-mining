@@ -1,0 +1,1 @@
+scoreboard players remove @a[scores={toggle_shift=1..}] toggle_shift 1

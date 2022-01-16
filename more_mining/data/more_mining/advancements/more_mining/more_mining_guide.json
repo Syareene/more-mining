@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book"
+    },
+    "title": "俺のダイヤがあああ",
+    "description": "more miningの説明書を入手する。",
+    "frame": "task"
+  },
+  "parent": "more_mining:more_mining/first",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{CustomModelData:1}",
+            "items": [
+              "minecraft:written_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "more_mining:item_trade/item_trade_trigger"
+  }
+}

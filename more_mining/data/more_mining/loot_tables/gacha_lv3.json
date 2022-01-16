@@ -1,0 +1,170 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:netherite_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:shulker_box",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:wither_skeleton_skull",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:beacon",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99999999,Damage:1981,Enchantments:[{id:\"minecraft:fortune\",lvl:10s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:7s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 999,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:white_shulker_box",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"福袋\",\"color\":\"dark_red\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"0.1%の確率で出てくる。\",\"color\":\"dark_blue\",\"italic\":false}','{\"text\":\"中には、、、\",\"color\":\"dark_blue\",\"italic\":false}']},BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:redstone_block\",Count:32b},{Slot:1b,id:\"minecraft:iron_block\",Count:16b},{Slot:2b,id:\"minecraft:emerald_block\",Count:32b},{Slot:3b,id:\"minecraft:netherite_block\",Count:4b},{Slot:4b,id:\"minecraft:beacon\",Count:1b},{Slot:5b,id:\"minecraft:netherite_block\",Count:4b},{Slot:6b,id:\"minecraft:emerald_block\",Count:32b},{Slot:7b,id:\"minecraft:iron_block\",Count:16b},{Slot:8b,id:\"minecraft:lapis_block\",Count:32b},{Slot:9b,id:\"minecraft:gold_block\",Count:16b},{Slot:10b,id:\"minecraft:netherite_pickaxe\",Count:1b,tag:{RepairCost:99999999,Damage:1981,Enchantments:[{id:\"minecraft:fortune\",lvl:15s}]}},{Slot:11b,id:\"minecraft:diamond_block\",Count:6b},{Slot:12b,id:\"minecraft:beacon\",Count:1b},{Slot:13b,id:\"minecraft:elytra\",Count:1b,tag:{Unbreakable:1b}},{Slot:14b,id:\"minecraft:beacon\",Count:1b},{Slot:15b,id:\"minecraft:diamond_block\",Count:6b},{Slot:16b,id:\"minecraft:netherite_pickaxe\",Count:1b,tag:{RepairCost:99999999,Damage:1981,Enchantments:[{id:\"minecraft:fortune\",lvl:15s}]}},{Slot:17b,id:\"minecraft:gold_block\",Count:16b},{Slot:18b,id:\"minecraft:emerald_block\",Count:32b},{Slot:19b,id:\"minecraft:diamond_block\",Count:6b},{Slot:20b,id:\"minecraft:coal_block\",Count:32b},{Slot:21b,id:\"minecraft:netherite_block\",Count:4b},{Slot:22b,id:\"minecraft:beacon\",Count:1b},{Slot:23b,id:\"minecraft:netherite_block\",Count:4b},{Slot:24b,id:\"minecraft:coal_block\",Count:32b},{Slot:25b,id:\"minecraft:diamond_block\",Count:6b},{Slot:26b,id:\"minecraft:emerald_block\",Count:32b}]}}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{gacha_atari:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

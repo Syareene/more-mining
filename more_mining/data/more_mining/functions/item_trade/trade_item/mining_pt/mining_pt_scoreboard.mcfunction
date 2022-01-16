@@ -1,0 +1,2 @@
+scoreboard objectives setdisplay sidebar mining_pt
+function more_mining:item_trade/item_trade_trigger

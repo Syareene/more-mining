@@ -1,0 +1,45 @@
+{
+	"parent": "block/anvil",
+	"textures": {
+		"4": "item/custom_crafter",
+		"particle": "item/custom_crafter"
+	},
+	"elements": [
+		{
+			"from": [3.99, -0.01, 3.99],
+			"to": [12.01, 8.01, 12.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 8, 12]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#4"},
+				"east": {"uv": [8, 8, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#4"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#4"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, -180],
+			"translation": [0, -14.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, -180],
+			"translation": [0, -14.25, 0]
+		},
+		"gui": {
+			"rotation": [35, 45, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.98, 0.98, 0.98]
+		},
+		"head": {
+			"rotation": [0, 0, 0],
+			"translation": [0, -21, 0],
+			"scale": [3.2, 3.2, 3.2]
+		},
+		"fixed": {
+			"translation": [0, 12, 0]
+		}
+	}
+}

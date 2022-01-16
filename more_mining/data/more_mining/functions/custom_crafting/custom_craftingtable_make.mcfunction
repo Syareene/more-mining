@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item_frame,tag=!custom_crafting,nbt={Item:{id:"minecraft:diamond_pickaxe"}}] at @e[type=item_frame,tag=!custom_crafting,nbt={Item:{id:"minecraft:diamond_pickaxe"}}] if block ~ ~-1 ~ minecraft:dropper run function more_mining:custom_crafting/custom_craftingtable
+#改良作業台のやつを検知したら動くコマンド。

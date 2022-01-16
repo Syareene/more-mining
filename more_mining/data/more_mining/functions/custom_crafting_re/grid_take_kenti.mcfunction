@@ -1,0 +1,1 @@
+execute as @a at @s store success score @s switch_take run clear @s minecraft:lever{CustomModelData:1} 0

@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": "より良い素材、より良い採掘。",
+    "description": "改良作業台を作成する。",
+    "frame": "task"
+  },
+  "parent": "more_mining:more_mining/first",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

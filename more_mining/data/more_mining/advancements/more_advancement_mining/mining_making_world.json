@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "title": "採掘",
+        "description": "採掘は世界を作る。",
+        "background": "minecraft:textures/block/cobblestone.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
