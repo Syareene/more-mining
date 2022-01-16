@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand,tag=custom_crafter] at @s if block ~ ~ ~ minecraft:air run function more_mining:custom_crafting_re/table_broke/custom_crafter_broke

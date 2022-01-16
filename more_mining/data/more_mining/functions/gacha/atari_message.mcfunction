@@ -1,2 +1,0 @@
-execute as @e[type=item] if data entity @s Item.tag{gacha_atari:true} run tellraw @p [{"text":"["},{"nbt":"Item.tag.display.Name","entity":"@s","interpret":true},{"text":"] "},{"text":"大当たり！！！"}]
-execute as @e[type=item] if data entity @s Item.tag{gacha_atari:true} run data remove entity @s Item.tag.gacha_atari

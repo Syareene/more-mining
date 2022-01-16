@@ -1,3 +1,0 @@
-execute as @a[scores={toggle_shift=1..},nbt={SelectedItem:{id:"minecraft:paper",tag:{CustomModelData:1}}}] run function more_mining:gacha/gacha_lv1
-execute as @a[scores={toggle_shift=1..},nbt={SelectedItem:{id:"minecraft:paper",tag:{CustomModelData:2}}}] run function more_mining:gacha/gacha_lv2
-execute as @a[scores={toggle_shift=1..},nbt={SelectedItem:{id:"minecraft:paper",tag:{CustomModelData:3}}}] run function more_mining:gacha/gacha_lv3

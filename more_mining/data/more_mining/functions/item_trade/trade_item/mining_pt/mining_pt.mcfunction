@@ -1,2 +1,0 @@
-execute as @s[scores={trade_trigger=89}] run function more_mining:item_trade/trade_item/mining_pt/mining_pt_check
-execute as @s[scores={trade_trigger=99}] run function more_mining:item_trade/trade_item/mining_pt/mining_pt_scoreboard

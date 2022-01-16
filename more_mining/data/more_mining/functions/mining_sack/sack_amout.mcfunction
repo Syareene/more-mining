@@ -1,2 +1,0 @@
-tellraw @s ["",{"text":"\u73fe\u5728\u306e\u77f3\u306e\u6570\u306f","bold":true,"color":"gold"},{"score":{"name":"@s","objective":"stone_amout"},"bold":true,"color":"gold"},{"text":"\u3067\u3059\u3002","bold":true,"color":"gold"}]
-function more_mining:mining_sack/sack_trigger_enable

@@ -1,1 +1,0 @@
-execute as @a[scores={toggle_shift=1..},nbt={SelectedItem:{id:"minecraft:paper"}}] run function more_mining:gacha/gacha_level

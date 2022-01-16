@@ -1,2 +1,0 @@
-execute at @e[type=item,nbt={Item:{id:"minecraft:ender_eye",tag:{CustomModelData:1}}}] run execute in more_mining:mining_god run tp @a 0 10 0
-kill @e[type=item,nbt={Item:{id:"minecraft:ender_eye",tag:{CustomModelData:1}}}]
